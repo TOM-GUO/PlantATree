@@ -2,7 +2,7 @@
 session_start();
 $list = [];
 $fruit = [
-    ['img' => 'https://gd1.alicdn.com/imgextra/i1/4128668879/O1CN012FSd7lya5wmvfz4_!!4128668879.jpg_400x400.jpg_.webp', 'name' => 'Lemon tree', 'age' => 6 , 'price' => 20],
+    ['img' => 'https://gd1.alicdn.com/imgextra/i3/2593885027/TB2XJcfelLN8KJjSZPhXXc.spXa_!!2593885027.jpg', 'name' => 'Lemon tree', 'age' => 6 , 'price' => 20],
     ['img' => 'https://gd4.alicdn.com/imgextra/i4/2930034893/TB2YLePtpmWBuNjSspdXXbugXXa_!!2930034893.jpg', 'name' => 'Orange tree', 'age' => 6, 'price' => 15],
     ['img' => 'https://gd3.alicdn.com/imgextra/i2/4128668879/O1CN012FSd82N2macNMql_!!4128668879.jpg', 'name' => 'Peach tree', 'age' => 10, 'price' => 28],
 ];
@@ -105,7 +105,7 @@ if (isset($_GET['key'])) {
                 ?>
                 <li><a href="login.php">login</a></li>
                 <li>|</li>
-                <li><a href="reg.php">register</a></li>
+                <li><a href="register.php">register</a></li>
                 <?php       
                     }
                 ?>
